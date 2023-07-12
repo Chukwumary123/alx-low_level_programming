@@ -1,7 +1,8 @@
-#include <stdio.h>        
+#include <stdio.h>
 #include "main.h"
 /**
- * _atoi - converts a string to an integer    * @s: string to be converted
+ * _atoi - converts a string to an integer
+ * @s: string to be converted
  *
  * Return: the int converted from the string
  */
@@ -35,9 +36,9 @@ i++;
 }
 if (f == 0)
 return (0);
-return (n);        
+return (n);
 }
-/**        
+/**
  * main - multiplies two numbers
  * @argc: number of arguments
  * @argv: array of arguments
